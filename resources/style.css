@@ -1,0 +1,233 @@
+/* Basic styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+nav {
+    background: rgb(3, 99, 0);
+    padding: 0 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18.5px;
+}
+
+.menu {   
+    list-style-type: none;
+}
+
+.logo {
+    font-size: 20px;
+    padding: 7.5px 10px 7.5px 0;
+}
+
+.logo img {
+    width: 40%;
+    height: auto;
+}
+
+.item {
+    padding: 10px;
+}
+
+.item a {
+    border-bottom: 2px solid rgb(187, 130, 63);
+}
+
+.item a:hover {
+    color: rgb(0, 0, 10);
+    border-bottom: none;
+}
+/*Flex CSS for Navigation Bar*/
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Below will be the body CSS made with grid*/
+
+.grid {
+    display: grid;
+    margin: 3%;
+    padding: 3%;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    column-gap: 20px;
+}
+
+.box {
+  color: black;
+  border-radius: 5px;
+}
+
+.a h1 {
+    font-size: 35px;
+}
+
+.b figcaption {
+    font-size: 19px;
+}
+
+.b img {
+    width: 70%;
+    height: auto;
+}
+
+/*Body content part two*/
+
+.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+}
+
+.c img {
+    margin-top: 3%;
+    width: 90%;
+    height: auto;
+}
+
+.d h2 {
+    margin-top: 3%;
+}
+
+.box-2 {
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+}
+
+.d a {
+    color: rgb(255, 255, 255);
+}
+
+.d button {
+    margin-top: 8%;
+    background-color: rgb(3, 99, 0);
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+}
+
+.d a:hover {
+    background-color: rgb(255,255,255);
+    color: rgb(0,0,10);
+    border-radius: 5px;  
+    transition-duration: 1.1s; 
+    box-shadow: none;
+    border: none;
+}
+
+/*Below will be the services header h3*/
+
+#services {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*Below will be styling for the services section of the body*/
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.box-3 {
+    border: 1px solid rgb(0,0,0);
+}
+
+.box-3 img {
+    width: 30%;
+    height: auto;
+}
+
+.box-3 li {
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.f button {
+    margin-top: 8%;
+    background-color: rgb(3, 99, 0);
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+}
+
+.g button {
+    margin-top: 8%;
+    background-color: rgb(3, 99, 0);
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+}
+
+.f a:hover {
+    background-color: rgb(255,255,255);
+    color: rgb(0,0,10);
+    border-radius: 5px;  
+    transition-duration: 1.1s; 
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+}
+
+.g a:hover {
+    background-color: rgb(255,255,255);
+    color: rgb(0,0,10);
+    border-radius: 5px;  
+    transition-duration: 1.1s; 
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer menu CSS is located below this comment*/
+footer {
+    background: rgb(3, 99, 0);
+    padding: 0 15px;
+}
+
+.footer-menu {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.footer-item {
+    font-size: 10px;
+    padding: 10px;
+}
+
+.footer-item a {
+    font-size: 15px;
+    border-bottom: 2px solid rgb(187, 130, 63);
+}
+
+.footer-item a:hover {
+    color: rgb(0, 0, 10);
+    border-bottom: none;
+}
